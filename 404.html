@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — This room isn't on the drawing · Emar Constructions &amp; Interiors</title>
+  <meta name="description" content="The page you asked for was never drawn — or it was demolished. Return to the Emar Constructions & Interiors lobby.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#f2ecdf">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Crect width='96' height='96' fill='%23f2ecdf'/%3E%3Cpath d='M8 80.5 H88 M20 62.5 H78 M32 44.5 H70' stroke='%231f3e52' stroke-width='9'/%3E%3Cpath d='M44 26.5 H70 M63.5 26 V9 M52 16.5 L63.5 5 L75 16.5' stroke='%23066f9a' stroke-width='9' fill='none'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #f2ecdf; --ink: #22374d; --ink-soft: #4a5f75; --ink-dim: #7d8ea0;
+      --navy: #1c548c; --terra: #b0562f; --line: rgba(34, 55, 77, 0.16); --line-strong: rgba(34, 55, 77, 0.38);
+      --serif: 'Fraunces', Georgia, serif; --mono: 'IBM Plex Mono', monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--paper); color: var(--ink); min-height: 100vh; display: grid; place-items: center;
+      padding: 2rem; position: relative; overflow: hidden;
+      background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
+      background-size: 44px 44px;
+      font-family: var(--serif);
+    }
+    .regmark { position: fixed; width: 22px; height: 22px; opacity: 0.5; }
+    .regmark::before, .regmark::after { content: ''; position: absolute; background: var(--ink); }
+    .regmark::before { left: 50%; top: 0; bottom: 0; width: 1px; }
+    .regmark::after { top: 50%; left: 0; right: 0; height: 1px; }
+    .card { text-align: center; max-width: 620px; position: relative; }
+    .card img.mark { height: 54px; width: auto; margin-bottom: 1.6rem; }
+    .code { font-family: var(--mono); font-size: 0.66rem; letter-spacing: 0.3em; color: var(--terra); text-transform: uppercase; margin-bottom: 1rem; }
+    h1 { font-weight: 480; font-size: clamp(2.2rem, 6vw, 3.6rem); line-height: 1.05; letter-spacing: -0.02em; }
+    h1 em { font-style: italic; color: var(--terra); font-weight: 420; }
+    p.lead { margin-top: 1.2rem; color: var(--ink-soft); font-size: 1rem; line-height: 1.65; max-width: 460px; margin-left: auto; margin-right: auto; }
+    .plan { margin: 2.2rem auto 0; max-width: 420px; }
+    .plan figcaption { font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.14em; color: var(--ink-dim); text-transform: uppercase; margin-top: 0.7rem; }
+    .btns { margin-top: 2rem; display: flex; gap: 0.9rem; justify-content: center; flex-wrap: wrap; }
+    .btn {
+      font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase;
+      text-decoration: none; padding: 0.85rem 1.4rem; border: 1px solid var(--ink); transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .btn.solid { background: var(--terra); border-color: var(--terra); color: var(--paper); }
+    .btn.solid:hover { background: #8c4021; transform: translateY(-2px); }
+    .btn.ghost { color: var(--ink); }
+    .btn.ghost:hover { background: var(--ink); color: var(--paper); transform: translateY(-2px); }
+    .foot { margin-top: 2.6rem; font-family: var(--mono); font-size: 0.6rem; letter-spacing: 0.16em; color: var(--ink-dim); text-transform: uppercase; }
+    .foot a { color: var(--terra); text-decoration: none; }
+    @media (prefers-reduced-motion: reduce) { .btn { transition: none; } }
+  </style>
+</head>
+<body>
+  <span class="regmark" style="top:1.2rem;left:1.2rem"></span>
+  <span class="regmark" style="top:1.2rem;right:1.2rem"></span>
+  <span class="regmark" style="bottom:1.2rem;left:1.2rem"></span>
+  <span class="regmark" style="bottom:1.2rem;right:1.2rem"></span>
+
+  <main class="card">
+    <img class="mark" src="brand-logo-emar-mark.png" alt="Emar Constructions & Interiors">
+    <div class="code">Error 404 · Room not found</div>
+    <h1>This room isn't<br>on the <em>drawing.</em></h1>
+    <p class="lead">The page you asked for was never built — or it was demolished in revision.
+      Either way, it isn't on our plan. Let's walk you back to the lobby.</p>
+
+    <figure class="plan">
+      <svg viewBox="0 0 420 240" width="100%" role="img" aria-label="Floor plan of the Emar site: rooms labeled Lobby, Works and Invest, with one dashed outline marked 404 where the missing page should be">
+        <!-- walls -->
+        <g stroke="#22374d" stroke-width="2.4" fill="none" stroke-linecap="square">
+          <path d="M30 30 H390 V210 H30 Z"/>
+          <path d="M150 30 V120 M270 30 V90 M270 150 V210 M150 120 H240 M300 150 H390"/>
+        </g>
+        <!-- door swings -->
+        <g stroke="#7d8ea0" stroke-width="1" fill="none">
+          <path d="M150 120 A30 30 0 0 1 180 90"/>
+          <path d="M270 150 A24 24 0 0 1 294 126"/>
+        </g>
+        <!-- room labels -->
+        <g font-family="'IBM Plex Mono', monospace" font-size="10" letter-spacing="2" fill="#4a5f75" stroke="none" text-anchor="middle">
+          <text x="90" y="80">LOBBY</text>
+          <text x="210" y="50">WORKS</text>
+          <text x="345" y="186">INVEST</text>
+          <text x="90" y="186">HANDOVER</text>
+        </g>
+        <!-- the missing room: dashed -->
+        <g stroke="#b0562f" stroke-width="1.6" fill="none" stroke-dasharray="6 4">
+          <rect x="160" y="130" width="100" height="70"/>
+        </g>
+        <g font-family="'IBM Plex Mono', monospace" font-size="11" letter-spacing="2" fill="#b0562f" stroke="none" text-anchor="middle">
+          <text x="210" y="170">404</text>
+        </g>
+        <!-- question mark in the missing room -->
+        <g stroke="#b0562f" stroke-width="1.4" fill="none" stroke-linecap="round">
+          <path d="M204 148 a6 6 0 1 1 8 6 c-2 1 -2 2 -2 4 M210 164 v1"/>
+        </g>
+        <!-- north arrow -->
+        <g stroke="#b0562f" stroke-width="1" fill="none">
+          <circle cx="366" cy="52" r="11"/>
+          <path d="M366 60 V46 M366 44 L362.5 50 M366 44 L369.5 50"/>
+        </g>
+      </svg>
+      <figcaption>Fig. 404 — Plan of the site · the dashed room was never drawn</figcaption>
+    </figure>
+
+    <div class="btns">
+      <a class="btn solid" href="index.html">Return to the lobby</a>
+      <a class="btn ghost" href="https://wa.me/919187405146?text=Hello%20Aquib%2C%20I%20hit%20a%20missing%20page%20on%20your%20website." target="_blank" rel="noopener">Report it on WhatsApp</a>
+    </div>
+
+    <p class="foot">Emar Constructions &amp; Interiors · <a href="tel:+919187405146">+91 91874 05146</a></p>
+  </main>
+</body>
+</html>
